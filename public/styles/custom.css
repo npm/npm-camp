@@ -15,6 +15,10 @@ h1 {
   font-size: 2em;
 }
 
+input {
+  color: black;
+}
+
 .jumbo {
   margin: 150px 0;
 }
