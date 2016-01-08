@@ -23,13 +23,44 @@ input {
   margin: 150px 0;
 }
 
+.title {
+  margin: 75px 0;
+}
+
+.brand #logo img {
+  position: relative;
+  bottom: -20px;
+  width: 20%;
+  margin: 0 -5px 0 -2px;
+}
+
+.brand img {
+  position: relative;
+  bottom: -5px;
+  width: 50px;
+}
+
+.sponsorships li {
+  margin: 0px;
+}
+
+.sponsorships > ul {
+  list-style-type: none;
+}
+
+.brand {
+  font-weight: 900;
+  font-size: 4em;
+}
+
+.brand a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: white;
+}
+
 .attribution {
   margin-top: 80px;
   font-size: .8em;
-}
-
-#logo {
-  position: relative;
 }
 
 #logo img {
@@ -39,6 +70,6 @@ input {
   margin: 0 -10px 0 -5px;
 }
 
-.container {
+.center {
   text-align: center;
 }
