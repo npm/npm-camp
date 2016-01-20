@@ -1,0 +1,26 @@
+{
+  "name": "npm-camp",
+  "version": "1.0.0",
+  "description": "> a community conference for all things npm, http://npm.github.io/npm-camp/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/npm-camp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npm/npm-camp/issues"
+  },
+  "homepage": "https://github.com/npm/npm-camp#readme",
+  "devDependencies": {
+    "live-server": "^0.9.0"
+  },
+  "dependencies": {
+    "npm-styles": "^1.7.0"
+  }
+}
