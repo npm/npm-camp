@@ -3,7 +3,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  background-color: rgba(203, 56, 55, 1);
+  background-color: #2a303c;
 }
 
 h1 {
@@ -20,24 +20,26 @@ input {
 }
 
 .jumbo {
-  margin: 150px 0;
-}
-
-.title {
   margin: 75px 0;
 }
 
-.brand #logo img {
-  position: relative;
-  bottom: -20px;
-  width: 20%;
-  margin: 0 -5px 0 -2px;
+.jumbo h1 {
+  color: white;
 }
 
-.brand img {
-  position: relative;
-  bottom: -5px;
-  width: 50px;
+.subtitle {
+  color: #6ea2c9;
+  font-weight: 700;
+}
+
+input.button.button-primary,
+.button.button-primary {
+  background-color: #6ea2c9;
+}
+
+input.button.button-primary:hover,
+.button.button-primary:hover {
+  background-color: #bfdaf0;
 }
 
 .sponsorships li {
@@ -46,16 +48,6 @@ input {
 
 .sponsorships > ul {
   list-style-type: none;
-}
-
-.brand {
-  font-weight: 900;
-  font-size: 4em;
-}
-
-.brand a, a:visited, a:hover, a:active {
-  text-decoration: none;
-  color: white;
 }
 
 .attribution {
@@ -72,4 +64,25 @@ input {
 
 .center {
   text-align: center;
+}
+
+h2, dt {
+  font-weight: 700;
+  color: #6ea2c9;
+}
+
+.sponsorships h2 {
+  min-height: 60px;
+}
+
+.sponsorships p {
+  min-height: 100px;
+}
+
+h4, dd {
+  font-weight: 700;
+}
+
+dd {
+  text-indent: 20px;
 }
