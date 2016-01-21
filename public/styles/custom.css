@@ -11,8 +11,22 @@ h1 {
   font-size: 8em;
 }
 
-.subtitle {
+.subtitle, .details h2 {
+  margin: 20px 0;
   font-size: 2em;
+}
+
+.details h2 {
+  display: inline;
+}
+
+.where {
+  color: #6ea2c9;
+}
+
+.when {
+  color: white;
+  padding-right: 20px;
 }
 
 input {
