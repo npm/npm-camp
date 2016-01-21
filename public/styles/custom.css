@@ -100,3 +100,15 @@ h4, dd {
 dd {
   text-indent: 20px;
 }
+
+/* This class allows our label to be semantically attached to our input,
+   screenreaders will still pick it up and read it, but it will be, for
+   all visual purposes at least, hidden. */
+.hidden-label {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
