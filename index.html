@@ -4,12 +4,20 @@
     <meta charset="utf-8">
     <link href="public/vendor/Skeleton-2.0.4/css/normalize.css" rel="stylesheet"/>
     <link href="public/vendor/Skeleton-2.0.4/css/skeleton.css" rel="stylesheet"/>
+    <link href="public/styles/index.min.css" rel="stylesheet"/>
     <link href="public/styles/custom.css" rel="stylesheet"/>
     <title>npm camp</title>
   </head>
   <body>
+    <nav>
+      <div class="container">
+        <a href="/">npm camp</a>
+        <a href="/sponsorships.html">Become a Sponsor</a>
+        <a href="/cfp.html">Call for Speakers</a>
+      </div>
+    </nav>
     <div class="container">
-      <section class="jumbo">
+      <section class="center jumbo">
         <h1>
           <img class="sparkles" src="public/img/sparkles.png" alt="sparkles" />
           <span id="logo"><img src="public/img/npm.png" alt="npm"/></span>
@@ -18,7 +26,7 @@
         </h1>
         <h2 class="subtitle">a community conference for all things npm</h2>
       </section>
-      <section>
+      <section class="center">
         <p>want to receive updates about npmCamp?</p>
         <form method="post" name="npm-camp-signup" action="https://s2030806319.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form28 input[type=submit]');if(s){s.disabled=true;}}},100);return true;" id="form28" class="elq-form" >
           <input value="npm-camp-signup" type="hidden" name="elqFormName"  />
@@ -28,8 +36,8 @@
           <input class="button button-primary" type="submit" value="Submit"  />
         </form>
       </section>
-      <section class="attribution">
-          Emoji images from Twitter's <a href="https://github.com/twitter/twemoji">twemoji</a>. Distributed under a <a href="https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS">CC Attribution license</a>.
+      <section class="attribution center">
+          npmCamp has a <a href="https://www.npmjs.com/policies/conduct">Code of Conduct</a>. Emoji images from Twitter's <a href="https://github.com/twitter/twemoji">twemoji</a>. Distributed under a <a href="https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS">CC Attribution license</a>.
       </secton>
     </div>
   </body>
