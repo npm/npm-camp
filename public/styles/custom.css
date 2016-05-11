@@ -117,6 +117,59 @@ dd {
   text-indent: 20px;
 }
 
+table {
+  background-color: white;
+}
+
+thead {
+  background-color: #2a303c;
+}
+
+table th, table tr.section td {
+  color: white;
+}
+
+table td, table th {
+  text-align: left;
+}
+
+table tr.operation {
+  background-color: #6ea2c9;
+}
+
+table tr.section {
+  font-weight: 600;
+  background-color: #cb3837;
+  height: 30px;
+}
+
+.talk span {
+  background-color: #AA8ED6;
+}
+
+.lightning span {
+  background-color: #FCAB40;
+}
+
+.panel span {
+  background-color: #9268CA;
+}
+
+.keynote span {
+ background-color: #EA596E;
+}
+
+td span {
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin: 0 2px;
+}
+
 /* This class allows our label to be semantically attached to our input,
    screenreaders will still pick it up and read it, but it will be, for
    all visual purposes at least, hidden. */
