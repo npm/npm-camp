@@ -96,6 +96,7 @@ input.button.button-primary,
 }
 
 input.button.button-primary:hover,
+.button:hover,
 .button.button-primary:hover {
   background-color: #bfdaf0;
 }
