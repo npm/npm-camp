@@ -35,6 +35,30 @@ h3 {
   font-weight: 700;
 }
 
+#dancelogo {
+  width: 150px;
+}
+
+#dance {
+  background-image: url(../img/ben-dance.jpg);
+  background-size: cover;
+  min-height: 500px;
+  padding: 20px;
+}
+
+#dance h2 {
+  color: white;
+}
+
+#dance h2.title {
+  font-size: 3em;
+  line-height: .8em;
+}
+
+#dance h3 {
+  letter-spacing: 0;
+}
+
 .speaker {
   border: 1px solid #6ea2c9;
   text-align: center;
