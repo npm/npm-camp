@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900);
 
+.empty {
+  color: #2a303c;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
@@ -27,6 +31,46 @@ h1 {
 .when {
   color: white;
   padding-right: 20px;
+}
+
+h3 {
+  margin-top: -1em;
+  color: white;
+  font-weight: 700;
+}
+
+#dancelogo {
+  width: 150px;
+}
+
+#dance {
+  background-image: url(../img/ben-dance.jpg);
+  background-size: cover;
+  min-height: 500px;
+  padding: 20px;
+}
+
+#dance h2 {
+  color: white;
+}
+
+#dance h2.title {
+  font-size: 3em;
+  line-height: .8em;
+}
+
+#dance h3 {
+  letter-spacing: 0;
+}
+
+.speaker {
+  border: 1px solid #6ea2c9;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.speaker img {
+  width: 100%;
 }
 
 input {
@@ -99,6 +143,59 @@ h4, dd {
 
 dd {
   text-indent: 20px;
+}
+
+table {
+  background-color: white;
+}
+
+thead {
+  background-color: #2a303c;
+}
+
+table th, table tr.section td {
+  color: white;
+}
+
+table td, table th {
+  text-align: left;
+}
+
+table tr.operation {
+  background-color: #6ea2c9;
+}
+
+table tr.section {
+  font-weight: 600;
+  background-color: #cb3837;
+  height: 30px;
+}
+
+.talk span {
+  background-color: #AA8ED6;
+}
+
+.lightning span {
+  background-color: #FCAB40;
+}
+
+.panel span {
+  background-color: #9268CA;
+}
+
+.keynote span {
+ background-color: #EA596E;
+}
+
+td span {
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin: 0 2px;
 }
 
 /* This class allows our label to be semantically attached to our input,
