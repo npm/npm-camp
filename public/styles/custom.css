@@ -20,6 +20,27 @@ h1 {
   font-size: 2em;
 }
 
+.sponsors img, .sponsor {
+  width: 200px;
+  margin: 20px;
+}
+
+.sponsors {
+  text-align: center;
+}
+
+.sponsor {
+  box-sizing: border-box;
+  width: 100px;
+  overflow: hidden;
+  margin-top: 40px;
+  background-color: #6ea2c9;
+  padding: 10px;
+  display: inline;
+  text-align: center;
+  font-style: bold;
+}
+
 .details h2 {
   display: inline;
 }
@@ -158,6 +179,10 @@ table th, table tr.section td {
   color: white;
 }
 
+td {
+  padding: 10px;
+}
+
 table td, table th {
   text-align: left;
 }
@@ -174,6 +199,7 @@ table tr.section {
 
 .talk span {
   background-color: #AA8ED6;
+  margin-right: 5px;
 }
 
 .lightning span {
