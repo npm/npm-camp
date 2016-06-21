@@ -10,6 +10,19 @@ body {
   background-color: #2a303c;
 }
 
+.tada {
+  display:inline;
+  width: 50px;
+  position: relative;
+  top: 8px;
+}
+
+#sponsors h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #2a303c;
+}
+
 h1 {
   font-weight: 900;
   font-size: 8em;
@@ -27,18 +40,17 @@ h1 {
 
 .sponsors {
   text-align: center;
+  border: 1px white solid;
+  background-color: #2a303c;
 }
 
-.sponsor {
-  box-sizing: border-box;
-  width: 100px;
-  overflow: hidden;
-  margin-top: 40px;
-  background-color: #6ea2c9;
+#sponsors {
+  background-color: white;
   padding: 10px;
-  display: inline;
-  text-align: center;
-  font-style: bold;
+}
+
+.sponsors li {
+  list-style-type: none;
 }
 
 .details h2 {
