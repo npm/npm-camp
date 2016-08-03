@@ -1,0 +1,46 @@
+@keyframes northern {
+  0% {
+    transform: translate(5%, -2%);
+  }
+
+  25% {
+    transform: translate(10%, 7%);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: translate(7%, -2%);
+  }
+
+  85% {
+    transform: translate(6%, 3%) rotate(12deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.aurora-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.auroral-northern {
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  animation-name: northern;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background: linear-gradient(10deg, #a1d9b4 10%, #32988a 25%, #000e3c 70%);
+  z-index: -9999;
+}
